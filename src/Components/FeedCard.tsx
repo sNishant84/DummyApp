@@ -1,4 +1,4 @@
-import React, { useState, type JSX } from 'react'
+import { useState, type JSX } from 'react'
 
 import type {  FeedDataItems } from './types.ts'
 import { useAuth } from '../Context/AuthProvider.tsx';
