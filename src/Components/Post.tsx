@@ -39,8 +39,6 @@ const Post=({setModalOpen,setCardData,cardData}:PostProps):JSX.Element=>{
             timeStamp: Date.now(),
             postText: extractEmojis(textAreaValue)[0] ? textAreaValue.replace(extractEmojis(textAreaValue)[0]!,'') : textAreaValue,
             emoji: extractEmojis(textAreaValue)[0] || '😊',
-            commentsCount: 0,
-            isEdited: false
         }
         setCardData([...cardData, newPost])
         setTextAreaValue('');
