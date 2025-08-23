@@ -6,8 +6,6 @@ export type FeedDataItems={
     timeStamp:number;
     postText:string;
     emoji:string;
-    commentsCount:number;
-    isEdited:boolean
 }
 
 export type LoginFormType={
