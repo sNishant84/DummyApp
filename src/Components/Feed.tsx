@@ -1,4 +1,4 @@
-import React, { useState, type FC, type JSX } from 'react';
+import { useState, type FC, type JSX } from 'react';
 import { feedData } from '../Data/data.ts';
 import FeedCard from './FeedCard.tsx';
 import { Login } from './Login.tsx';
