@@ -1,4 +1,4 @@
-import React,{useEffect, useState, type JSX} from 'react'
+import {useEffect, useState, type JSX} from 'react'
 import type { SignUpErrorType, SignUpFormType } from './types.ts';
 import { saveData } from '../Utils/saveData.ts';
 import { useAuth } from '../Context/AuthProvider.tsx';
