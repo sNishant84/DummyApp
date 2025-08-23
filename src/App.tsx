@@ -1,4 +1,3 @@
-import React from 'react';
 import {LoginPage} from './Components/Login';
 import { SignUpPage } from './Components/SignUp';
 import Feed from './Components/Feed';
