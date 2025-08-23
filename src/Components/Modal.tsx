@@ -1,4 +1,4 @@
-import React,{type ReactElement, type JSX} from 'react'
+import {type ReactElement, type JSX} from 'react'
 import { useClickOutside } from '../hooks/useClickOutside.ts';
 
 interface ModalProps{
