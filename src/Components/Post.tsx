@@ -31,6 +31,9 @@ const Post=({setModalOpen,setCardData,cardData}:PostProps):JSX.Element=>{
       };
 
     const handlePost=()=>{
+        if(!isLogin){
+            return
+        }
         if(textAreaValue.length===0){
             alert('Please enter a post');
             return
