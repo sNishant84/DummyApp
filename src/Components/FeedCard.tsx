@@ -1,4 +1,4 @@
-import {type JSX } from 'react'
+import {  type JSX } from 'react'
 
 import type {  FeedDataItems } from './types.ts'
 import { useAuth } from '../Context/AuthProvider.tsx';
@@ -46,9 +46,9 @@ const FeedCard=({feedData,setModalOpen}:FeedCardProps):JSX.Element=> {
                 </div>
             </div>
             <div className='flex gap-6 px-3 pb-3'>
-                <img src='/assets/comment-text.svg' onClick={()=>showAlert()} />
-                <img src='/assets/heart.svg' onClick={()=>showAlert()} />
-                <img src='/assets/send-2.svg' onClick={()=>showAlert()} />
+                <img src='/assets/comment-text.svg' onClick={()=> isLogin && showAlert()} />
+                <img src='/assets/heart.svg' onClick={()=> isLogin && showAlert()} />
+                <img src='/assets/send-2.svg' onClick={()=> isLogin && showAlert()} />
                 </div>
         </div>
         )
