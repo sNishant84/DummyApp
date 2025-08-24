@@ -1,0 +1,7 @@
+# SPA routing - redirect all routes to index.html
+/*    /index.html   200
+
+# Specific routes (optional, for better SEO)
+/home    /index.html   200
+/signin  /index.html   200
+/signup  /index.html   200 
